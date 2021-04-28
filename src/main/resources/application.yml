@@ -1,0 +1,32 @@
+# 端口
+server:
+  port: 8088
+
+# 运行环境配置
+spring:
+  profiles:
+    active: test
+  # 配置文件传输
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+      enabled: true
+
+# 配置日志信息
+logging:
+  config: classpath:templates/logback.xml
+
+# 调试
+debug: true
+
+# Swagger2界面内容配置
+swagger:
+  title: 国产化服务API模版
+  description: Restful Api Documentation
+  version: 1.0.0
+  termsOfServiceUrl: https://github.com/z7-x
+  contact:
+    name: z7
+    url: https://github.com/z7-x
+    email: 40620862@qq.com
