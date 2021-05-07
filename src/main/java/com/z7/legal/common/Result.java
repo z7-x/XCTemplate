@@ -16,6 +16,8 @@ import java.io.Serializable;
 @ApiModel("返回数据")
 public class Result<T> implements Serializable {
 
+    private static final long serialVersionUID = 1L;
+
     @ApiModelProperty(value = "返回状态", example = "200")
     protected Integer code;
 
@@ -89,5 +91,15 @@ public class Result<T> implements Serializable {
         this.data = null;
         this.code = code.getCode();
         this.msg = code.getMessage() + ":" + info;
+    }
+
+    /**
+     *
+     * @param data
+     * @param <T>
+     * @return
+     */
+    public static <T> Result<T> success(T data) {
+        return new Result<>(data);
     }
 }
