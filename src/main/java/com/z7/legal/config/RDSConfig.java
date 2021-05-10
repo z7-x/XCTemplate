@@ -1,7 +1,8 @@
 package com.z7.legal.config;
 
-import com.rds.client.javaclient.Client;
+
 import com.rds.client.javaclient.Connection;
+import com.tongtech.rds.javaclient.Client;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
