@@ -4,6 +4,10 @@ server:
 
 # 运行环境配置
 spring:
+  #服务名
+  application:
+    name: 国产化模版
+
   profiles:
     active: test
   # 配置文件传输
