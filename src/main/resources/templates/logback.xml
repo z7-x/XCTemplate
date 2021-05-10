@@ -6,6 +6,9 @@
     <property name="log.filePath" value="log"></property>
     <property name="log.maxHistory" value="30"/>
 
+    <springProperty scope="context" name="springAppName" source="spring.application.name"/>
+    <contextName>${springAppName}</contextName>
+
     <!-- 彩色日志依赖的渲染类 -->
     <conversionRule conversionWord="clr" converterClass="org.springframework.boot.logging.logback.ColorConverter" />
     <conversionRule conversionWord="wex" converterClass="org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter" />
