@@ -26,6 +26,8 @@ debug: true
 
 # Swagger2界面内容配置
 swagger:
+  url: localhost:8088
+  show: true
   title: 国产化服务API模版
   description: Restful Api Documentation
   version: 1.0.0
