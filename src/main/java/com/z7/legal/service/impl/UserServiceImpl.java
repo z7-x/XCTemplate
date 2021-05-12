@@ -62,7 +62,6 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User addUser(User user) {
-        user.setId(new ObjectId().toHexString());
         return userDao.save(user);
     }
 
