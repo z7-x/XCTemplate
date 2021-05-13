@@ -8,7 +8,7 @@ import java.io.Serializable;
 
 /**
  * @Classname CustomIDGenerator
- * @Description TODO
+ * @Description TODO 自定义ID生成器
  * @Date 2021/5/12 11:55 上午
  * @Author z7-x
  */
