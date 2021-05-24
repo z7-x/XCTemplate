@@ -1,4 +1,3 @@
-# 应用技术：基于国产化构建（SpringBoot+JPA+达梦数据库+TongRDS+Lucene+日志管理）
 # Getting Started
 
 ### Reference Documentation
@@ -18,7 +17,7 @@ The following guides illustrate how to use some features concretely:
 * [Using Spring Data JDBC](https://github.com/spring-projects/spring-data-examples/tree/master/jdbc/basics)
 
 ### 说明文档
-
+### 应用技术：基于国产化构建（SpringBoot+JPA+达梦数据库+TongRDS+Lucene+日志管理）
 *
 * 
 *
